@@ -61,6 +61,17 @@ padding-bottom: 94px;
     
 }
 
+
+.container{
+
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+    
+
 .logo{
 font-family: 'Raleway';
 font-style: normal;
