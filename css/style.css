@@ -107,13 +107,18 @@ color: #2196F3;
 }
 
 /* Шапка сайту*/
+
+
+
 .menu{
+display: block;
+padding-top: 32px;
+padding-bottom: 32px;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
-
 color: #212121;
 }
 
@@ -136,15 +141,17 @@ color: #212121;
     margin-left: 50px;
 }
 
-.header-contakt{
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #757575;
-}
+.header-contakt {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    }
 
 
 /* Герой */
