@@ -155,9 +155,16 @@ img {
 /* Герой */
 .hero {
     background-color: #2F303A;
-
     padding-top: 200px;
     padding-bottom: 200px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/Img\ \(1\).png);
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
 }
 
 .hero-title {
