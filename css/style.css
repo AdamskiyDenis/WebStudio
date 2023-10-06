@@ -175,6 +175,11 @@ img {
     color: #757575;
 }
 
+.svg-contact {
+    margin-right: 10px;
+    fill: currentColor;
+}
+
 
 /* Герой */
 .hero {
@@ -240,15 +245,40 @@ img {
     padding-top: 94px;
 }
 
+
+
+
 .advantages-list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
 
+
+
+
+
+
 .advantages-list>.item {
     flex-basis: calc((100% - 90px) / 4);
 }
+
+
+
+.advantages-svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #F5F4FA;
+
+
+}
+
 
 .advantages-title {
     font-style: normal;
@@ -293,6 +323,7 @@ img {
     background-color: #F5F4FA;
 }
 
+
 .our-teem-list {
     display: flex;
     flex-wrap: wrap;
@@ -329,6 +360,38 @@ img {
 
     color: #757575;
 }
+
+.cocial-icon-list {
+    display: inline-flex;
+    padding-bottom: 30px;
+}
+
+.cocial-ikon-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.cocial-ikon-item {
+    width: 44px;
+    height: 44px;
+}
+
+.cocia-icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    fill: #afb1b8;
+    background-color: #fff;
+}
+
+.cocia-icon-link:hover,
+.cocia-icon-link:focus {
+    fill: #F5F4FA;
+    background-color: #2196F3;
+}
+
 
 /* Футер */
 .footer {
