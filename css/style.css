@@ -550,7 +550,21 @@ img {
 
 }
 
-.overlay-text {}
+.overlay-text {
+    color: #FFF;
+
+
+    font-size: 18px;
+    padding: 63px 24px;
+    font-weight: 400;
+    line-height: 28px;
+    /* 155.556% */
+    letter-spacing: 0.54px;
+}
+
+.project-discraption {
+    padding: 20px 24px;
+}
 
 .portfolio-title {
     margin-top: 20px;
