@@ -19,7 +19,7 @@
 .our-customers-list>.item:hover,
 .our-customers-list>.item:focus {
     cursor: pointer;
-    border-color: #2196f3;
+    border-color: $accented;
 }
 
 .our-customers-list>.item {

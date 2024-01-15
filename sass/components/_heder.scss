@@ -26,11 +26,11 @@
 
     letter-spacing: 0.03em;
 
-    color: #000000;
+    color: $color_logo;
 }
 
 .span-logo {
-    color: #2196F3;
+    color: $accented;
 }
 
 /* Шапка сайту*/
@@ -45,7 +45,7 @@
     line-height: 16px;
     letter-spacing: 0.02em;
 
-    color: #212121;
+    color: $minor;
 }
 
 .menu-list {
@@ -57,7 +57,7 @@
 .menu.current {
     position: relative;
 
-    color: #2196F3;
+    color: $accented;
 
 }
 
@@ -69,7 +69,7 @@
     left: 0;
     bottom: -1px;
 
-    background-color: #2196F3;
+    background-color: $accented;
     border-radius: 2px;
 }
 
@@ -97,7 +97,7 @@
     line-height: 16px;
     letter-spacing: 0.02em;
 
-    color: #757575;
+    color: $basic;
 }
 
 .svg-contact {
