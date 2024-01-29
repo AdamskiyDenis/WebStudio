@@ -1,4 +1,8 @@
 /* header */
+.header{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 .top-navigation {
     display: flex;
 
@@ -15,8 +19,7 @@
 }
 
 .logo {
-    padding-top: 24px;
-    padding-bottom: 25px;
+   
 
     font-family: 'Raleway';
     font-style: normal;
@@ -34,25 +37,32 @@
 }
 
 /* Шапка сайту*/
-.menu {
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
 
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-
-    color: $minor;
-}
 
 .menu-list {
+
     display: flex;
     margin-left: 93px;
 
+    &__menu-item {
+        margin-left: 50px;
+    }
+
+    &__menu-link {
+        display: block;
+       
+    
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+    
+        color: $minor;
+    }
+
 }
+
 
 .menu.current {
     position: relative;
@@ -73,34 +83,35 @@
     border-radius: 2px;
 }
 
-.menu-item {
-    margin-left: 50px;
-}
+
 
 .list-contakts {
     display: flex;
     margin-left: auto;
+
+    &__header-contakt {
+        display: block;
+     
+    
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+    
+        color: $basic;
+    }
+
+    &__svg-contact {
+        margin-right: 10px;
+        fill: currentColor;
+    }
 }
 
-.list-contakts>.item {
+.list-contakts>.list-contakts__item {
     margin-left: 50px;
+
 }
 
-.header-contakt {
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
 
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
 
-    color: $basic;
-}
-
-.svg-contact {
-    margin-right: 10px;
-    fill: currentColor;
-}

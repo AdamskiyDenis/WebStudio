@@ -11,50 +11,53 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 600px;
+
+    &__hero-title {
+        margin: 0 auto 30px;
+        max-width: 696px;
+    
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+    
+    }
+
+    &__hero-btn {
+        padding: 10px 32px;
+        margin-left: auto;
+        margin-right: auto;
+    
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+    
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+    
+        color: #FFFFFF;
+    
+        background-color: $accented;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+    
+        cursor: pointer;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    &__hero-btn:hover,
+    &__hero-btn:focus {
+        background-color: $accented;
+    
+    }
 }
 
-.hero-title {
-    margin: 0 auto 30px;
-    max-width: 696px;
 
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
 
-    color: #FFFFFF;
-
-}
-
-.hero-btn {
-    padding: 10px 32px;
-    margin-left: auto;
-    margin-right: auto;
-
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-
-    color: #FFFFFF;
-
-    background-color: $accented;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-
-    cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.hero-btn:hover,
-.hero-btn:focus {
-    background-color: $accented;
-
-}
